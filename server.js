@@ -6,7 +6,7 @@ app.get('/', function(req, res){
   if (typeof(message) == "undefined") {
   	message = "Deis"
   }
-  res.send('Powered by ' + message);
+  res.send('Powered by : ' + message);
 });
 
 /* Use PORT environment variable if it exists */
